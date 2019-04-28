@@ -6,9 +6,20 @@
  */
 
 // any CSS you require will output into a single css file (app.css in this case)
-require('../scss/app.scss');
+import '../scss/app.scss';
 
-// Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
-// const $ = require('jquery');
+console.log('Hello from app.js');
 
-console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+// loads the jquery package from node_modules
+import $ from 'jquery';
+
+// loads the bootstrap package from node_modules
+import bootstrap from "bootstrap";
+
+// import the function from greet.js (the .js extension is optional)
+// ./ (or ../) means to look for a local file
+import utils from './utils';
+
+$(document).ready(function () {
+    utils();
+});
