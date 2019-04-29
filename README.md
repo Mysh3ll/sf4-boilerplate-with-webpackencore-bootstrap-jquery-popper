@@ -1,4 +1,4 @@
-Symfony 4 (Webpack-Encore) boilerplate with bootstrap 4 - JQuery - Popper.js
+Symfony 4 (Webpack-Encore) boilerplate with bootstrap 4 - JQuery - Popper.js - FontAwesome 5(free)
 =======
 
 ## Setup
